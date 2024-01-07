@@ -1,7 +1,7 @@
-version: '3.9'
+version: '3.2'
 
 services:
   web:
-    image: 'akhilvijay15/dishapp:latest'
+    image: 'akhilvijay15/dishaapp:latest'
     ports:
       - "8000:8000"
