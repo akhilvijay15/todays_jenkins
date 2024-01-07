@@ -3,7 +3,6 @@ pipeleline{
 
     stages{
 
-        
         stage('Fetch'){
             steps{
                 git url: 'https://github.com/akhilvijay15/todays_jenkins.git' , branch : 'main'
@@ -27,7 +26,7 @@ pipeleline{
 
         stage('Deploy'){
              steps{
-                sh 'docker-compose down && docker-compose up -d'
+                sh "docker-compose down && docker-compose up -d"
              }
         }
     }
