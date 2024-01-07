@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: 'akhilvijay15/django_app:latest'
+    image: 'akhilvijay15/dishapp:latest'
     ports:
       - "8000:8000"
